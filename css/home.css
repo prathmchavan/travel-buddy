@@ -1,0 +1,170 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    /* position:relative; */
+}
+#navbar::before{
+    content: "";
+    height: 90px;
+    width: 100%;
+
+    position: absolute;
+    
+    z-index: -1;
+    opacity: 0.5;
+    background-color: #03A9F4
+}
+#logo img
+{
+    width: 100px;
+}
+ ul {
+    display: flex;
+    
+    /* flex-direction: column; */
+}
+#navbar ul li
+{   font-size: 1.3rem;
+    padding-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+    
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left:50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+   
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+#backimg::before
+{  
+    background-image: url('../img/bimg.jpg');
+    content: "";
+    height: 1000px;
+    position: absolute;
+    width: 100%;
+    z-index: -5;
+    opacity: 1;
+    bottom: 0px;    
+
+
+}
+
+#from
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 170px;
+    padding-right: 150px;
+   
+
+}   
+#from input[type="text"]
+{   
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+}
+#to input[type="text"]
+{
+    
+    padding: 10px;
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+#to {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-right: 150px;
+   
+}
+#sym::after
+{   
+    display: flex;
+    position: absolute;
+    left: 650px;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    content: '\21C5';
+}
+.foot
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+#date
+{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 249px;
+    left: 1120px;
+}
+#date input[type="date"]
+{
+     
+    padding: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+}
+.btn
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 390px;
+    left: 1140px;
+
+  
+}
+.btn button[type="button"]
+{
+    padding: 10px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    animation-name: clr;
+}
+.btn button[type="button"]:hover
+{
+  border-color: rgb(10, 253, 10);
+}
