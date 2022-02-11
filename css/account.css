@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#navbar{
+    
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    /* position:relative; */
+}
+#navbar::before{
+    content: "";
+    height: 90px;
+    width: 100%;
+
+    position: absolute;
+    
+    z-index: -1;
+    opacity: 1;
+    background-color: #10acf5
+}
+#logo img
+{
+    width: 100px;
+}
+ ul {
+    display: flex;
+    
+    /* flex-direction: column; */
+}
+#navbar ul li
+{   font-size: 1.3rem;
+    padding-top: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+    
+    list-style: none;
+}
+#navbar ul li a{
+    display: block;
+    padding-top: 3px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left:50px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    
+   
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.form
+{
+    display: grid;
+    border: 4px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left:500px;
+
+    
+}
+#login
+{   
+    color: rgb(94, 187, 32);
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding-bottom: 30px;
+}
+#login input[type="email"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+    width: 250px;
+    border-color: black; 
+}
+#login input[type="password"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+    width: 250px;
+    border-color: black;
+    
+}
+h1
+{
+    padding-bottom: 40px;
+}
+a
+{   
+    font-size: large;
+    margin-top: 10px;
+    display: grid;
+    justify-content: center;
+    text-decoration: none;
+}
+#signbx
+{   
+    display: grid;
+    border: 4px solid black;
+    border-radius: 10px;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 100px;
+    width: 600px;
+    margin-top: 300px;
+    margin-left:500px;
+    margin-bottom: 200px;
+}
+#sign
+{   
+    margin-left: 30px;
+    padding-bottom: 40px;
+    color: rgb(17, 17, 16);
+}
+#signbx input[type="text"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 3px;
+    padding: 5px;
+    margin-bottom: 30px;
+    width: 250px;
+    border-color: black;
+}
+#signbx input[type="password"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-width: 3px;
+    padding: 5px;
+    width: 250px;
+    border-color: black;
+}
+#signbx input[type="email"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-width: 3px;
+    padding: 5px;
+    width: 250px;
+    border-color: black;
+}
+#signbx input[type="submit"]
+{
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-width: 3px;
+    padding: 2px;
+    margin-left: 130px;
+    margin-top: 20px;
+    width: 100px;
+    border-color: black;
+}
+#signbx input[type="submit"]:hover
+{
+    background-color: rgba(40, 205, 211, 0.418);
+}
+#signbx
+{
+    color: rgb(94, 187, 32);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 30px;
+}
+
+.foot
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
