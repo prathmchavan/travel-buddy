@@ -65,14 +65,15 @@
     padding-top: 70px;
     padding-bottom: 100px;
     width: 500px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left:500px;
 
     
 }
 #login
 {   
-    color: rgb(94, 187, 32);
+    color: rgb(7, 8, 6);
+    font-weight: 900px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    padding-bottom: 30px;
 }
@@ -174,7 +175,7 @@ a
 }
 #signbx
 {
-    color: rgb(94, 187, 32);
+    color: rgb(13, 14, 13);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-bottom: 30px;
 }
@@ -189,4 +190,27 @@ a
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+}
+nav h2
+{
+    display: flex;
+    position: absolute;
+    left: 900px;
+    bottom: 5px;
+    font-size: 50px;
+    color: black;
+}
+#moto1
+{   
+    
+    position: absolute;
+    z-index: -1;
+    bottom: 500px;
+    left: 470px;
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+}
+.container
+{  
+    background-color: #1290f727;
 }

@@ -163,8 +163,38 @@
     border-radius: 5px;
     cursor: pointer;
     animation-name: clr;
-}
+}   
 .btn button[type="button"]:hover
 {
   border-color: rgb(10, 253, 10);
+}
+nav h2
+{   display: flex;
+    position: absolute;
+    left: 900px;
+    bottom: 5px;
+    font-size: 50px;
+    color: black;
+    
+}
+#moto
+{   
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    font-size: 100px;
+    margin-left: 120px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: text;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes text 
+{
+    0%   {color:red; }
+    25%  {color:rgb(57, 104, 105); }
+    50%  {color:rgb(108, 108, 243); }
+    75%  {color:green;}
+    100% {color:red; }
 }
