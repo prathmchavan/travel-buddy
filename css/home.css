@@ -20,7 +20,7 @@
     
     z-index: -1;
     opacity: 1;
-    background-color: #10acf5
+    background-color: #10acf5;
 }
 #logo img
 {
@@ -71,11 +71,11 @@
 }
 
 #from
-{   display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 170px;
-    padding-right: 150px;
+{  
+    display: flex;
+    position: absolute;
+    left: 585px;
+    bottom: 192px;
    
 
 }   
@@ -99,11 +99,9 @@
 #to {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 100px;
-    padding-right: 150px;
-   
+    position: absolute;
+    left: 777px;
+    bottom: 192px;
 }
 #sym::after
 {   
@@ -112,32 +110,21 @@
     left: 650px;
     color: rgb(255, 255, 255);
     font-size: 5rem;
-    content: '\21C5';
-}
-.foot
-{
-    display: flex;
-    background-color: black;
-    justify-content: center;
-    align-items: center;
-    margin-top: 250px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
+    
 }
 #date
 {
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 249px;
-    left: 1120px;
+    top: 480px;
+    left: 970px;
 }
 #date input[type="date"]
 {
      
-    padding: 10px;
+    padding: 8px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
@@ -149,32 +136,32 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 390px;
+    top: 480px;
     left: 1140px;
 
-  
+    
 }
 .btn button[type="button"]
 {
-    padding: 10px;
+    padding: 8px;
     border-color: black;
     border-width: 3px;
     border-style: solid;
     border-radius: 5px;
     cursor: pointer;
     animation-name: clr;
-}   
-.btn button[type="button"]:hover
-{
-  border-color: rgb(10, 253, 10);
-}
+    background-color: #10acf5;
+    font-size: 1rem;
+  
+} 
 nav h2
 {   display: flex;
     position: absolute;
-    left: 900px;
+    left: 1150px;
     bottom: 5px;
     font-size: 50px;
     color: black;
+    font-family: 'Lobster', cursive;
     
 }
 #moto
@@ -186,15 +173,26 @@ nav h2
     margin-left: 120px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     animation-name: text;
-    animation-duration: 10s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     
 }
 @keyframes text 
 {
-    0%   {color:red; }
+    0%   {color:rgb(36, 206, 224); }
     25%  {color:rgb(57, 104, 105); }
     50%  {color:rgb(108, 108, 243); }
     75%  {color:green;}
-    100% {color:red; }
+    100% {color:rgb(255, 123, 0); }
+}
+.foot
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    margin-top: 600px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
 }

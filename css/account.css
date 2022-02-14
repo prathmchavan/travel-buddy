@@ -70,6 +70,20 @@
 
     
 }
+.form input[type="submit"]
+{
+    display: flex;
+    position: absolute;
+    left: 750px;
+    padding: 5px 20px;
+
+}
+.form a{
+      display: flex;
+      position: absolute;
+      top: 550px;
+      left: 700px;
+}
 #login
 {   
     color: rgb(7, 8, 6);
@@ -93,6 +107,7 @@
     border-width: 3px;
     padding: 5px;
     width: 250px;
+    margin-left: 17px;
     border-color: black;
     
 }
@@ -138,7 +153,17 @@ a
     border-color: black;
 }
 #signbx input[type="password"]
-{
+{   
+    border-style: solid;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    border-width: 3px;
+    padding: 5px;
+    width: 250px;
+    border-color: black;
+}
+#signbx input[type="repassword"]
+{   
     border-style: solid;
     border-radius: 5px;
     margin-bottom: 30px;
@@ -195,10 +220,11 @@ nav h2
 {
     display: flex;
     position: absolute;
-    left: 900px;
+    left: 1150px;
     bottom: 5px;
     font-size: 50px;
     color: black;
+    font-family: 'Lobster', cursive;
 }
 #moto1
 {   
@@ -209,8 +235,22 @@ nav h2
     left: 470px;
     font-size: 100px;
     color: rgb(0, 0, 0);
+    animation-name: moto1;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+@keyframes moto1 
+{
+    0%   {color:rgb(36, 206, 224); }
+    25%  {color:rgb(57, 104, 105); }
+    50%  {color:rgb(108, 108, 243); }
+    75%  {color:green;}
+    100% {color:rgb(255, 123, 0); }
 }
 .container
 {  
     background-color: #1290f727;
+}
+html{
+    scroll-behavior: smooth ;
 }
