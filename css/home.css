@@ -75,7 +75,7 @@
     display: flex;
     position: absolute;
     left: 585px;
-    bottom: 192px;
+    bottom: 235px;
    
 
 }   
@@ -101,7 +101,7 @@
     display: flex;
     position: absolute;
     left: 777px;
-    bottom: 192px;
+    bottom: 235px;
 }
 #sym::after
 {   
@@ -137,7 +137,7 @@
     align-items: center;
     position: absolute;
     top: 480px;
-    left: 1140px;
+    left: 1120px;
 
     
 }
@@ -191,7 +191,7 @@ nav h2
     background-color: black;
     justify-content: center;
     align-items: center;
-    margin-top: 600px;
+    margin-top: 653px;
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
